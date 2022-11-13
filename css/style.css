@@ -1,0 +1,712 @@
+@charset "UTF-8";
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.header {
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+}
+.header .title-home {
+  color: azure;
+  text-decoration: none;
+}
+.header .navbarLogo {
+  padding-left: 30px;
+  width: 250px;
+  height: auto;
+}
+
+.container-all {
+  display: block;
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.container-all .title1 {
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 25px;
+}
+.container-all .title2 {
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 40px;
+}
+
+.container {
+  width: 100%;
+  padding-top: 13rem;
+  padding-right: var(--bs-gutter-x, 0.75rem);
+  padding-left: var(--bs-gutter-x, 0.75rem);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container00 {
+  background: url(../../img/home/01.jpg);
+  background-size: cover;
+}
+.container00 .ceta {
+  width: 150px;
+  height: auto;
+  display: grid;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.container01 {
+  background: url(../../img/home/03.jpg);
+  background-size: cover;
+}
+
+.container02 {
+  background: url(../../img/home/02.gif);
+  background-size: cover;
+}
+
+.container03 {
+  background: url(../../img/home/04.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.footer {
+  background-color: black;
+  padding: 25px;
+  text-align: center;
+}
+.footer .title-footer {
+  color: white;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .container-all .title1 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 25px;
+  }
+  .container-all .title2 {
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 20px;
+  }
+}
+@media (max-width: 425px) {
+  .title1 {
+    font-size: 29px;
+    font-weight: 700;
+  }
+  .title2 {
+    font-size: 29px;
+    font-weight: 700;
+  }
+  .container-all {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100px;
+  }
+  .container-all .title1 {
+    font-size: 20px;
+  }
+  .container-all .title2 {
+    font-size: 27px;
+  }
+  .container00 .ceta {
+    width: 100px;
+    padding-top: 10%;
+  }
+  .container00 .title-all-Page1 {
+    padding-top: 30%;
+  }
+  .container01 .title-all-Page1 {
+    padding-top: 30px;
+  }
+  .container02 .title-all-page2 {
+    padding-top: 65px;
+  }
+  .container03 .title-all-page3 {
+    padding-top: 20%;
+    font-size: 20px;
+  }
+  .footer {
+    padding: 15px;
+    text-align: center;
+  }
+  .footer .title-footer {
+    text-decoration: none;
+    font-size: 8px;
+  }
+  .title-footer-nome {
+    font-size: 10px;
+  }
+}
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+header {
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+}
+header .title-home {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-weight: 700;
+}
+header .navbarLogo {
+  padding-left: 30px;
+  width: 250px;
+  height: auto;
+}
+
+.container-all-human {
+  display: block;
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.container-all-human .titleFalcon9 {
+  font-size: 55px;
+  font-weight: bold;
+  color: white;
+}
+.container-all-human .title1Cont04 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 45px;
+}
+.container-all-human .title1Cont04Page1 {
+  font-size: 100px;
+}
+.container-all-human .title2Cont04 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 20px;
+}
+.container-all-human .titlemisao {
+  font-size: 15px;
+}
+
+.containerSF {
+  width: 100%;
+  padding-top: 1rem;
+  padding-right: var(--bs-gutter-x, 0.75rem);
+  padding-left: var(--bs-gutter-x, 0.75rem);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container04 {
+  background: url(../../img/falcon9/01.jpg);
+  background-size: cover;
+}
+.container04 .ceta {
+  width: 150px;
+  height: auto;
+  display: grid;
+  align-items: flex-end;
+  justify-content: center;
+}
+.container04 .titlecontent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.container05 {
+  background: url(../../img/falcon9/02.jpg);
+  background-size: cover;
+}
+.container05 .titleFalcon9Page2 {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+.container05 .titleFalcon9Page2Nunber {
+  font-size: 90px;
+  font-weight: 500;
+  color: white;
+}
+.container05 .title2Falcon9Page2 {
+  font-size: 20px;
+  color: white;
+}
+.container05 .title3Falcon9Page2 {
+  padding-right: 45%;
+  padding-bottom: 20%;
+  font-size: 25px;
+  line-height: 3rem;
+}
+
+.container06 {
+  background-color: black;
+}
+.container06 .tatle2Page3Carousel1-all {
+  font-size: 25px;
+}
+.container06 .titlePage3Carousel1 {
+  position: absolute;
+  top: 50px;
+  text-align: left;
+}
+.container06 .table {
+  border-collapse: collapse;
+  width: 55%;
+  color: white;
+}
+.container06 .title2Page3Carousel2 {
+  position: absolute;
+  top: -10%;
+  text-align: left;
+  width: 40%;
+}
+.container06 .title2Page3Carousel3 {
+  text-align: left;
+  bottom: 10%;
+  width: 40%;
+}
+.container06 .tablePage3Carousel3 {
+  border-collapse: collapse;
+  width: 100%;
+}
+.container06 .title2Page3Carousel4 {
+  text-align: left;
+  width: 37%;
+}
+.container06 .title2Page3Carousel5 {
+  text-align: left;
+  width: 42%;
+  margin-left: -5%;
+  bottom: 15%;
+}
+.container06 .tablePage3Carousel5 {
+  width: 100%;
+}
+
+.container07 {
+  background: url(../../img/falcon9/08.jpg);
+  background-size: contain;
+  color: white;
+}
+.container07 .textPage4Falcon9 {
+  text-align: left;
+  width: 50%;
+}
+.container07 .tablePage4Falcon9 {
+  color: white;
+  margin-left: -1%;
+  width: 50%;
+}
+
+.container007 {
+  background-size: contain;
+}
+.container007 .textCarousel2 {
+  background-color: black;
+  color: white;
+}
+
+@media (max-width: 425px) {
+  .container-all-human {
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .container04 .title1Cont04 {
+    font-size: 45px;
+  }
+  .container04 .title2Cont08Page1 {
+    font-size: 18px;
+  }
+  .container05 .titleFalcon9Page2Nunber {
+    font-size: 25px;
+  }
+  .container05 .title2Falcon9Page2 {
+    font-size: 12px;
+  }
+  .container05 .title3Falcon9Page2 {
+    display: flex;
+    align-items: stretch;
+    height: 10vh;
+    flex-direction: column;
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .container06 .table1Page3 {
+    font-size: 20px;
+  }
+  .container07 {
+    display: flex;
+    align-items: stretch;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 20px;
+    color: white;
+  }
+  .container07 .textPage4Falcon9 {
+    font-size: 15px;
+    text-align: justify;
+    width: 100%;
+  }
+  .container07 .tablePage4Falcon9 {
+    font-size: 15px;
+    color: white;
+    margin-left: 0%;
+    width: 110%;
+    margin-right: 0%;
+  }
+  .container007 {
+    display: flex;
+    align-items: stretch;
+    height: -1vh;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 20px;
+  }
+  .container12 .title2HumanPage5 {
+    font-size: 50px;
+  }
+  .footerFalcon9 {
+    padding: 15px;
+    text-align: center;
+  }
+  .footerFalcon9 .title-footer9 {
+    text-decoration: none;
+    font-size: 10px;
+  }
+  .title-footer-nome {
+    font-size: 10px;
+  }
+}
+@media (max-width: 768px) {
+  .container06 .imgCarousel1 {
+    width: 950px;
+    height: auto;
+  }
+  .container06 .tatle2Page3Carousel1-all {
+    font-size: 15px;
+  }
+  .container06 .titlePage3Carousel1 {
+    top: 5px;
+    text-align: left;
+    width: 80%;
+  }
+  .container06 .table {
+    border-collapse: collapse;
+    width: 70%;
+  }
+  .container06 .title2Page3Carousel2 {
+    top: -50%;
+    text-align: left;
+    width: 60%;
+  }
+  .container06 .title2Page3Carousel3 {
+    text-align: left;
+    top: -60%;
+    width: 70%;
+  }
+  .container06 .tablePage3Carousel3 {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  .container06 .title2Page3Carousel4 {
+    top: 2%;
+    text-align: left;
+    width: 50%;
+  }
+  .container06 .title2Page3Carousel5 {
+    text-align: left;
+    width: 50%;
+    margin-left: -5%;
+    top: -14rem;
+  }
+  .container06 .tablePage3Carousel5 {
+    width: 100%;
+  }
+}
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.header {
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+}
+.header .title-home {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-weight: 700;
+}
+.header .navbarLogo {
+  padding-left: 30px;
+  width: 250px;
+  height: auto;
+}
+
+.container-all-human {
+  display: block;
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.container-all-human .title2Human {
+  font-size: 65px;
+  font-weight: bold;
+}
+.container-all-human .title1Cont08 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 45px;
+}
+.container-all-human .title1Cont08Page1 {
+  font-size: 130px;
+  text-align: center;
+}
+.container-all-human .title2Cont08 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 30px;
+}
+.container-all-human .titleHuman {
+  color: white;
+}
+.container-all-human .titlemisao {
+  font-size: 15px;
+}
+
+.containerSF {
+  width: 100%;
+  padding-top: 1rem;
+  padding-right: var(--bs-gutter-x, 0.75rem);
+  padding-left: var(--bs-gutter-x, 0.75rem);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container08 {
+  background: url(../../img/humanFligth/01.jpg);
+  background-size: cover;
+}
+.container08 .ceta {
+  width: 150px;
+  height: auto;
+  display: grid;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.containertext {
+  background-color: black;
+  font-size: 20px;
+  text-align: center;
+}
+
+.container13 {
+  color: white;
+  background-color: black;
+  height: 25vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container09 {
+  background: url(../../img/humanFligth/02.jpg);
+  background-size: cover;
+}
+.container09 .titlePageTerra {
+  padding-left: 50%;
+}
+
+.container10 {
+  background: url(../../img/humanFligth/03.jpg);
+  background-size: cover;
+}
+.container10 .containerEstaçao {
+  margin-top: 25%;
+  margin-left: 0%;
+}
+
+.container11 {
+  background: url(../../img/humanFligth/04.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.container11 .titleMoon {
+  margin-top: 15%;
+  margin-left: 50%;
+}
+
+.container12 {
+  background: url(../../img/humanFligth/05.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.container12 .titleMars {
+  margin-top: 17%;
+}
+
+.container14 {
+  padding-top: 12rem;
+  padding-bottom: 12rem;
+  background-color: black;
+  text-align: center;
+}
+.container14 .titlebutton {
+  color: white;
+}
+.container14 .btn-container14 {
+  padding-right: 2%;
+}
+
+.footer {
+  background-color: black;
+  padding: 25px;
+  text-align: center;
+}
+.footer .title-footer {
+  text-decoration: none;
+  color: white;
+}
+
+@media (max-width: 425px) {
+  .header {
+    padding-top: 10%;
+    display: flex;
+    align-items: center;
+  }
+  .header .title-home {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 10px;
+  }
+  .header .navbarLogo {
+    padding-left: 10px;
+    width: 150px;
+    height: auto;
+  }
+  .container-all-human {
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .titleHuman {
+    font-size: 15px;
+  }
+  .container08 .title1Cont08Page1 {
+    padding-top: 10%;
+    font-size: 40px;
+    font-weight: 700;
+  }
+  .container08 .title2Cont08Page1 {
+    font-size: 18px;
+  }
+  .container13 .titleHumanPage2 {
+    padding-top: 8%;
+    font-size: 13px;
+  }
+  .title1 {
+    font-size: 29px;
+    font-weight: 700;
+  }
+  .title2 {
+    font-size: 29px;
+    font-weight: 700;
+  }
+  .container09 .title2Human {
+    font-size: 40px;
+  }
+  .container09 .titlePageTerra {
+    padding-left: 20%;
+    padding-top: 20%;
+    margin-right: 0%;
+  }
+  .container10 .title2Cont10 {
+    font-size: 40px;
+  }
+  .container12 .title2HumanPage5 {
+    font-size: 50px;
+  }
+  .footer {
+    padding: 15px;
+    text-align: center;
+  }
+  .footer .title-footer {
+    text-decoration: none;
+    font-size: 8px;
+  }
+  .title-footer-nome {
+    font-size: 10px;
+  }
+}
+@media (max-width: 768px) {
+  .container-all-human {
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .container08 .title1Cont08Page1 {
+    padding-top: 10%;
+    font-size: 40px;
+    font-weight: 700;
+  }
+  .container08 .title1Cont08Page1 {
+    font-size: 80px;
+  }
+  .container08 .title2Cont08Page1 {
+    font-size: 25px;
+  }
+  .container13 .titleHumanPage2 {
+    font-size: 20px;
+  }
+  .title1 {
+    font-size: 29px;
+    font-weight: 700;
+  }
+  .title2 {
+    font-size: 29px;
+    font-weight: 700;
+  }
+  .container09 .title2Human {
+    font-size: 50px;
+  }
+  .container09 .titlePageTerra {
+    padding-left: 50%;
+    padding-top: 15%;
+  }
+  .container10 .title2Cont10 {
+    font-size: 50px;
+    padding-top: 0%;
+  }
+  .container14 .title2HumanPage5 {
+    font-size: 50px;
+  }
+  .footer {
+    padding: 15px;
+    text-align: center;
+  }
+  .footer .title-footer {
+    text-decoration: none;
+    font-size: 15px;
+  }
+  .title-footer-nome {
+    font-size: 10px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
